@@ -16,6 +16,8 @@ A role-based **Application and Registration Management System** that allows user
 - [🛡️ Security & Privacy](#️-security--privacy)
 - [🧑‍💻 Developer Info](#-developer-info)
 - [📁 Project Directory Structure](#-project-directory-structure)
+- [⚙️ Installation & Setup](#-installation--setup)
+- [⚠️ Important Note](#-important-note)
 
 ---
 
@@ -149,8 +151,20 @@ Below is an overview of the main folders and files included in this project and 
 - **/about.php**, **/blog.php**, **/index.php** → Main site pages and entry points
 - **Other .php files** → Static and dynamic service-related pages
 
-### 🏁 Thank You!
+---
 
-If you like this project, please ⭐ it on GitHub to show support!  
-> _“Built with ❤️ and PHP to simplify digital registration workflows.”_
+## ⚙️ Installation & Setup
 
+1. Git clone the project:
+```bash
+git clone https://github.com/PIYUSHPANDEY735/Multi-User-Application-Management-Portal.git
+
+2. Put the folder inside XAMPP htdocs. Folder name must be : piyushproject
+3. Start Apache and MySQL from XAMPP.
+4. Create a dummy database in phpMyAdmin.
+5. Ask the developer for the SQL file. Import it with dummy data.
+6. Rename the database to : project_complete
+7. Open browser and go to : http://localhost/piyushproject
+Make sure folder name and database name exactly match, otherwise project won’t work properly.
+
+## ⚙️ Important Note : SQL file and sensitive configs are not included for security.
