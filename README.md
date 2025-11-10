@@ -135,21 +135,19 @@ All key events trigger email notifications *(available in live version)*:
 
 Below is an overview of the main folders and files included in this project and their purposes.
 
-/admindashboard → Contains all Super Admin panel files (CRUD operations, services, blogs, enquiries, etc.)
-/subadmin → Contains Subadmin panel and related features (application status updates, certificate uploads)
-/dashboard → User dashboard files (application tracking, certificates, document uploads)
-/assets → CSS, JS, vendor libraries, and frontend resources
-/img → Static images used throughout the website (UI icons, banners, etc.)
-/serviceimages → Images related to service or registration categories
-/uploads → Folder where certificates and user-uploaded documents are stored
-/userdata → User-specific generated data (can include downloadable docs or generated reports)
-/config → Configuration files (database connection, constants, etc.)
-/includes → Common PHP includes (header, footer, navbar, authentication checks, etc.)
-/resource → Utility scripts, extra functions, or reusable backend resources
-/about.php → Static “About Us” page
-/blog.php → Public-facing blog listing page
-/index.php → Homepage and login/registration entry point
-(other .php files) → Service pages, forms, terms & conditions, privacy policy, and other static/dynamic content
+- **/admindashboard** → Super Admin panel files (CRUD operations, blogs, enquiries, etc.)
+- **/subadmin** → Subadmin panel and assigned service modules
+- **/dashboard** → User dashboard (application tracking, certificates, documents)
+- **/assets** → CSS, JS, and frontend resources
+- **/img** → Static images (UI icons, banners, etc.)
+- **/serviceimages** → Images for registration/service categories
+- **/uploads** → Uploaded certificates and user documents *(keep private)*
+- **/userdata** → User-generated or downloadable files *(keep private)*
+- **/config** → Database connection and configuration files
+- **/includes** → Common includes (header, footer, navbar, authentication)
+- **/resource** → Backend utilities and helper scripts
+- **/about.php**, **/blog.php**, **/index.php** → Main site pages and entry points
+- **Other .php files** → Static and dynamic service-related pages
 
 ### 🏁 Thank You!
 
